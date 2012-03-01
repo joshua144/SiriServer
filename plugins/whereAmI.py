@@ -20,6 +20,7 @@ class whereAmI(Plugin):
     
     @register("de-DE", "(Wo bin ich.*)")    
     @register("en-US", "(Where am I.*)")
+    @register("en-GB", "(Where am I.*)")
     def whereAmI(self, speech, language):
         mapGetLocation = self.getCurrentLocation()
         latitude = mapGetLocation.latitude
