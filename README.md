@@ -1,3 +1,4 @@
+THIS SIRI SERVER IS DESIGNED FOR en-GB users.
 Siri Server
 ===========
 
